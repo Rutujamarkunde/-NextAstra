@@ -1,0 +1,323 @@
+
+.chart-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.chart-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.chart-header .subtitle {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  text-align: right;
+  margin: 0;
+}
+
+.chart-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donut-legend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.legend-item {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+
+/*  */
+ .dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.add-chart-btn {
+  padding: 8px 12px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info-cards-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.info-card {
+  flex: 1;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.card-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
+.positive .percent {
+  color: green;
+}
+
+.negative .percent {
+  color: red;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.chart-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 300px;
+}
+
+.chart-header {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+}
+
+.chart-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donut-legend {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+
+
+
+.dashboard-tabs {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.dashboard-tabs .tab {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  padding: 8px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.dashboard-tabs .tab.active {
+  font-weight: 600;
+  color: #007bff;
+}
+
+.dashboard-tabs .tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #007bff;
+  border-radius: 2px;
+}
+
+.dashboard-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.add-chart-button {
+  background-color: #FF7A00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.period-card {
+  background: #f5f6f8;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  min-width: 160px;
+}
+
+.period-label {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.period-value {
+  font-weight: 600;
+}
+
+
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.metric-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.metric-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.metric-change {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.metric-change.positive {
+  color: green;
+}
+
+.metric-change.negative {
+  color: red;
+}
+
+.metric-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.positive-icon {
+  background: #eafaea;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.negative-icon {
+  background: #fceaea;
+  border-radius: 6px;
+  padding: 4px;
+}
